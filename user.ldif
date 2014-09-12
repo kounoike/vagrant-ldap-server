@@ -1,0 +1,33 @@
+dn: uid=user1,ou=People,dc=example,dc=com
+objectClass: account
+objectClass: posixAccount
+uid: user1
+cn: user1
+userPassword: user1
+loginShell: /bin/bash
+uidNumber: 2000
+gidNumber: 2000
+homeDirectory: /home/user1
+
+dn: cn=user1,ou=Group,dc=example,dc=com
+objectClass: posixGroup
+cn: user1
+gidNumber: 2000
+memberUid: user1
+
+dn: uid=user2,ou=People,dc=example,dc=com
+objectClass: account
+objectClass: posixAccount
+uid: user2
+cn: user2
+userPassword: user2
+loginShell: /bin/bash
+uidNumber: 2001
+gidNumber: 2001
+homeDirectory: /home/user2
+
+dn: cn=user2,ou=Group,dc=example,dc=com
+objectClass: posixGroup
+cn: user2
+gidNumber: 2001
+memberUid: user2

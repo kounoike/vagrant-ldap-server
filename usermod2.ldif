@@ -1,0 +1,7 @@
+dn: uid=user2,ou=People,dc=example,dc=com
+changetype: modify
+replace: uidNumber
+uidNumber: 1000
+-
+replace: gidNumber
+gidNumber: 999

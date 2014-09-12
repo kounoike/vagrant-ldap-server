@@ -1,4 +1,4 @@
-Berksfile.lock 
-.vagrant 
-Vagrantfile.rb 
-berks-cookbooks/ 
+Berksfile.lock
+.vagrant/
+Vagrantfile.rb
+berks-cookbooks/
